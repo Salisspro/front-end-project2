@@ -1,0 +1,33 @@
+
+body{
+   font-family: 'Poppins', sans-serif;
+   letter-spacing: 0.02em;
+   transition: background-color 0.5s ease;
+   background-color: hsl(0, 0%, 1%);
+   padding: 50px;
+   background-color: rgb(233, 231, 231);
+}
+
+.main{
+   max-width: 1200px;
+   margin: 0 auto;
+   padding: 0 20px;
+    background: linear-gradient(90deg, hsl(252, 100%, 67%), hsl(241, 81%, 54%) 100%)
+}
+
+.num{
+   background-color: hsla(241, 55%, 51%, 0.523);
+   font-size: 5em;
+   font-weight: 900;
+   margin-bottom: 20px;
+   transition: color 0.5s ease;
+   color: hsl(0, 0%, 100%);
+   cursor: pointer;
+   &:hover{
+      color: hsl(240, 100%, 44%);
+   }
+}
+
+.header{
+   text-align: left;
+}
