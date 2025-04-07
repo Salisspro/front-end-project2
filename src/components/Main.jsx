@@ -9,9 +9,9 @@ import Visual from '../assets/images/icon-visual.svg'
 
 export default function Main() {
    return (
-      <div className='font-mono bg-slate-50 h-[50rem] md:h-[24em] md:flex items-center justify-center md:mt-20 md:rounded-r-3xl shadow'>
-         <div className='w-full text-center main flex items-center justify-center flex-col  text-slate-100 md:rounded-r-2xl md:h-full rounded-b-4xl md:rounded-b-none '>
-            <h1 className='mt-5 mb-10 md:mt-10'>Your Result</h1>
+      <div className='font-mono bg-slate-50 h-[50rem] md:h-[24em] md:flex items-center justify-center md:mt-20 md:rounded-4xl shadow'>
+         <div className='w-full text-center main flex items-center justify-center flex-col  text-slate-100 md:h-full md:rounded-4xl rounded-b-4xl  '>
+            <h1 className='mt-5 mb-10 md:mt-15'>Your Result</h1>
             <div className='num rounded-full  p-10 w-36'>
                <h1 className='text-4xl font-extrabold'>76</h1>
                <p className='text-slate-300 text-[13px]'>of 100</p>

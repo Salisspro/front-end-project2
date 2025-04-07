@@ -24,7 +24,7 @@ body{
    color: hsl(0, 0%, 100%);
    cursor: pointer;
    &:hover{
-      color: hsl(240, 100%, 44%);
+      color: hsl(240, 52%, 68%);
    }
 }
 
